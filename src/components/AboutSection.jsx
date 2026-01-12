@@ -17,25 +17,30 @@ const AboutSection = () => {
         {/* Content Section */}
         <div>
           <span className="text-sm uppercase tracking-wider text-red-400 font-semibold">
-            About Trauma
+            About Us
           </span>
 
           <h2 className="mt-3 text-3xl md:text-4xl font-bold text-[#223B73] leading-tight">
-            What Is Trauma?
+            TraumaHelp Odisha- A Guide to Trauma Care!
           </h2>
 
           <p className="mt-5 text-gray-800 leading-relaxed text-lg">
-            Trauma is a deeply distressing or disturbing experience that can
-            overwhelm a person’s ability to cope. It may result from a single
-            event or repeated exposure to stress, leaving lasting emotional,
-            mental, and physical effects.
-          </p>
+  Whether you have undergone an accident, a sudden sad moment, or any traumatic
+  event, Traumahelp Odisha helps you recognize trauma types and manage trauma
+  aftereffects.
+</p>
 
-          <p className="mt-4 text-gray-800 leading-relaxed">
-            Everyone experiences trauma differently, and its impact may not
-            always be visible. Understanding trauma is the first step toward
-            healing and support.
-          </p>
+<p className="mt-4 text-gray-800 leading-relaxed">
+  It is an initiative of Dr. Somanath Prasad Jena, a leading neurologist and
+  trauma care specialist in Odisha. Through this page, you can access:
+</p>
+
+<ul className="mt-4 list-disc list-inside text-gray-800 space-y-2">
+  <li>Emergency Trauma Care</li>
+  <li>24×7 Trauma Services, ICU, and Life Support</li>
+  <li>Post-Trauma Guidance Whenever You Need</li>
+</ul>
+
 
           <div className="mt-6">
             <Link

@@ -17,47 +17,47 @@ const WhoThisIsFor = () => {
           </span>
 
           <h2 className="mt-3 text-3xl md:text-4xl font-bold leading-tight">
-            You Are Not Alone
+            How to Manage Trauma Aftereffects
           </h2>
 
           <p className="mt-5 text-gray-200 leading-relaxed text-lg">
-            Trauma affects individuals and communities in many ways. This
-            platform offers guidance, understanding, and resources tailored to
-            the unique needs of different people involved in the healing
-            journey.
+            When a person undergoes a traumatic situation, he/she may experience sudden emotional
+            imbalance, including anger, anxiety, sadness, lack of concentration, or thinking about the
+            traumatic event, etc. Therefore, it is essential to cope with trauma patients immediately after
+            the event. Here are some tips to follow while managing traumatic effects.
           </p>
 
           <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-6">
 
-            <div className="flex gap-4">
-              <FaUser className="text-red-400 text-xl mt-1" />
+            <div className="flex gap-4 items-start">
+              <FaUser className="text-red-400 text-3xl shrink-0 mt-1" />
               <p className="text-gray-200">
-                <strong className="text-white">Survivors</strong> seeking understanding, validation,
-                and tools for healing.
+                Try to calm the person with a simple massage, talking, a nice meal, exercise, or other
+                favourite activities of that person.
               </p>
             </div>
 
-            <div className="flex gap-4">
-              <FaUsers className="text-red-400 text-xl mt-1" />
+            <div className="flex gap-4 items-start">
+              <FaUsers className="text-red-400 text-3xl shrink-0 mt-1" />
               <p className="text-gray-200">
-                <strong className="text-white">Families</strong> wanting to better support loved ones
-                affected by trauma.
+                Give prescribed medications to improve the situation that help reduce stress, anxiety,
+                and help them to sleep peacefully.
               </p>
             </div>
 
-            <div className="flex gap-4">
-              <FaHandsHelping className="text-red-400 text-xl mt-1" />
+            <div className="flex gap-4 items-start">
+              <FaHandsHelping className="text-red-400 text-3xl shrink-0 mt-1" />
               <p className="text-gray-200">
-                <strong className="text-white">Caregivers</strong> and support workers seeking
-                compassionate guidance.
+                Do not use alcohol or drugs after a traumatic event, as this may lead to repeated
+                thinking of that situation and anxiety.
               </p>
             </div>
 
-            <div className="flex gap-4">
-              <FaUserTie className="text-red-400 text-xl mt-1" />
+            <div className="flex gap-4 items-start">
+              <FaUserTie className="text-red-400 text-3xl shrink-0 mt-1" />
               <p className="text-gray-200">
-                <strong className="text-white">Professionals</strong> looking for trauma-informed
-                resources and education.
+                Seek professional help if the situation is uncontrollable. Contact any trauma center in
+                Odisha, or simply inform TraumaHelp Odisha to get immediate access to trauma care.
               </p>
             </div>
 
@@ -68,14 +68,12 @@ const WhoThisIsFor = () => {
         <div className="flex justify-center order-1 lg:order-2">
           <div className="relative w-72 h-72 md:w-80 md:h-80 rounded-full bg-red-400 flex items-center justify-center shadow-lg">
 
-            {/* Image inside the circle */}
             <div className="w-60 h-60 md:w-64 md:h-64 rounded-full overflow-hidden relative shadow-lg">
               <img
-                src="/assets/images/WhoThisisForImg.jpg" 
+                src="/assets/images/WhoThisisForImg.jpg"
                 alt="Who This Is For"
                 className="w-full h-full object-cover rounded-full"
               />
-              {/* Text overlay on image */}
               <div className="absolute inset-0 flex flex-col items-center justify-center text-center bg-white bg-opacity-60 p-6 rounded-full">
                 <h3 className="text-xl font-bold text-[#223B73]">Who This Is For</h3>
                 <p className="mt-3 text-gray-800 text-sm leading-relaxed">

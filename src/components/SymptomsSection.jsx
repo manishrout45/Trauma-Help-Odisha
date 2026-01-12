@@ -1,20 +1,22 @@
 import React from "react";
 import {
   AlertCircle,
-  Activity,
-  Headphones,
-  BatteryLow,
-  HeartPulse,
+   AlertTriangle,
+  Brain,
+  Angry,
+  Moon,
+  UserX,
   ArrowRight,
 } from "lucide-react";
 
 const traumaSymptoms = [
-  { text: "Severe pain or bleeding", icon: AlertCircle },
-  { text: "Dizziness, confusion, or disorientation", icon: Headphones },
-  { text: "Weakness or fainting", icon: BatteryLow },
-  { text: "Rapid heartbeat or shock", icon: HeartPulse },
-  { text: "Emotional distress or panic", icon: Activity },
+  { text: "Crying Repeatedly", icon: AlertTriangle },
+  { text: "Worrying a Lot", icon: Brain },
+  { text: "Feeling Anxious or Irritable, or Angry Most of the Time", icon: Angry },
+  { text: "Trouble Sleeping or Flashback", icon: Moon },
+  { text: "Avoiding Family or Friends or Public", icon: UserX },
 ];
+
 
 export default function TraumaSymptomsSection() {
   return (
@@ -43,12 +45,12 @@ export default function TraumaSymptomsSection() {
           </div>
 
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-[#223B73] leading-tight">
-            Don’t Ignore <span className="text-red-400">These Signals</span>
+            When to Seek Professional  <span className="text-red-400">Trauma Care in Odisha?</span>
           </h2>
 
           <p className="mt-6 text-lg text-gray-600 max-w-xl">
-            Trauma-related symptoms can appear immediately or develop over time.
-            Recognizing them early helps you or your loved ones get urgent help.
+            If you or your loved one undergoes the following trauma symptoms, immediately rush to the
+professional trauma center.
           </p>
 
           {/* Symptom List */}
