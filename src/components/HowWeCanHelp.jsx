@@ -14,17 +14,17 @@ const HowWeCanHelp = () => {
           Support & Guidance
         </span>
 
-        <h2 className="mt-3 text-3xl md:text-4xl font-bold text-gray-900">
+        <h2 className="fade-right mt-3 text-3xl md:text-4xl font-bold text-gray-900">
           What is Trauma and Its Types
         </h2>
 
-        <p className="mt-4 max-w-2xl mx-auto text-gray-600 text-lg leading-relaxed">
+        <p className="fade-up mt-4 max-w-2xl mx-auto text-gray-600 text-lg leading-relaxed">
           A trauma is an emotional response to an event, whether it’s due to an accident,
           a sad event, or a natural disaster, causing emotional, mental, and physical disturbances.
         </p>
 
         {/* Cards */}
-        <div className="mt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+        <div className="fade-up mt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
 
           {[
             {

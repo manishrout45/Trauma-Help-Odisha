@@ -24,12 +24,12 @@ const HeroSection = () => {
         </div>
 
         {/* Heading */}
-        <h1 className="mt-6 text-3xl md:text-5xl font-bold">
+        <h1 className="fade-right mt-6 text-3xl md:text-5xl font-bold">
           Trauma Care Awareness
         </h1>
 
         {/* Description */}
-        <p className="mt-4 max-w-2xl mx-auto text-gray-200 text-base md:text-lg">
+        <p className="fade-up mt-4 max-w-2xl mx-auto text-gray-200 text-base md:text-lg">
           Reliable information and resources related to trauma care
           and emergency preparedness in Odisha.
         </p>

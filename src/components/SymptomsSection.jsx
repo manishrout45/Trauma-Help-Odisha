@@ -29,7 +29,7 @@ export default function TraumaSymptomsSection() {
       <div className="relative max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-20 items-center">
 
         {/* LEFT – IMAGE PANEL */}
-        <div className="flex justify-center">
+        <div className="fade-up flex justify-center">
           <img
             src="https://img.freepik.com/premium-photo/medium-shot-paramedic-checking-man_1356031-8479.jpg?ga=GA1.1.1312737827.1743758138&semt=ais_hybrid&w=740&q=80"
             alt="Trauma Awareness Illustration"
@@ -44,17 +44,17 @@ export default function TraumaSymptomsSection() {
             Trauma Symptoms & Early Warning Signs
           </div>
 
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-[#223B73] leading-tight">
+          <h2 className="fade-right text-3xl md:text-4xl lg:text-5xl font-extrabold text-[#223B73] leading-tight">
             When to Seek Professional  <span className="text-red-400">Trauma Care in Odisha?</span>
           </h2>
 
-          <p className="mt-6 text-lg text-gray-600 max-w-xl">
+          <p className="fade-up mt-6 text-lg text-gray-600 max-w-xl">
             If you or your loved one undergoes the following trauma symptoms, immediately rush to the
 professional trauma center.
           </p>
 
           {/* Symptom List */}
-          <div className="mt-10 space-y-4">
+          <div className="fade-right mt-10 space-y-4">
             {traumaSymptoms.map((item, index) => {
               const Icon = item.icon;
               return (
@@ -65,7 +65,7 @@ professional trauma center.
                   <div className="w-12 h-12 rounded-xl bg-red-100 text-red-400 flex items-center justify-center group-hover:scale-110 transition">
                     <Icon className="w-6 h-6" />
                   </div>
-                  <p className="font-medium text-gray-800">{item.text}</p>
+                  <p className="fade-up font-medium text-gray-800">{item.text}</p>
                 </div>
               );
             })}

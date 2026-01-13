@@ -16,11 +16,11 @@ const WhoThisIsFor = () => {
             Support For Everyone
           </span>
 
-          <h2 className="mt-3 text-3xl md:text-4xl font-bold leading-tight">
+          <h2 className="fade-right mt-3 text-3xl md:text-4xl font-bold leading-tight">
             How to Manage Trauma Aftereffects
           </h2>
 
-          <p className="mt-5 text-gray-200 leading-relaxed text-lg">
+          <p className="fade-up mt-5 text-gray-200 leading-relaxed text-lg">
             When a person undergoes a traumatic situation, he/she may experience sudden emotional
             imbalance, including anger, anxiety, sadness, lack of concentration, or thinking about the
             traumatic event, etc. Therefore, it is essential to cope with trauma patients immediately after
@@ -31,7 +31,7 @@ const WhoThisIsFor = () => {
 
             <div className="flex gap-4 items-start">
               <FaUser className="text-red-400 text-3xl shrink-0 mt-1" />
-              <p className="text-gray-200">
+              <p className="fade-up text-gray-200">
                 Try to calm the person with a simple massage, talking, a nice meal, exercise, or other
                 favourite activities of that person.
               </p>
@@ -39,7 +39,7 @@ const WhoThisIsFor = () => {
 
             <div className="flex gap-4 items-start">
               <FaUsers className="text-red-400 text-3xl shrink-0 mt-1" />
-              <p className="text-gray-200">
+              <p className="fade-up text-gray-200">
                 Give prescribed medications to improve the situation that help reduce stress, anxiety,
                 and help them to sleep peacefully.
               </p>
@@ -47,7 +47,7 @@ const WhoThisIsFor = () => {
 
             <div className="flex gap-4 items-start">
               <FaHandsHelping className="text-red-400 text-3xl shrink-0 mt-1" />
-              <p className="text-gray-200">
+              <p className="fade-up text-gray-200">
                 Do not use alcohol or drugs after a traumatic event, as this may lead to repeated
                 thinking of that situation and anxiety.
               </p>
@@ -55,7 +55,7 @@ const WhoThisIsFor = () => {
 
             <div className="flex gap-4 items-start">
               <FaUserTie className="text-red-400 text-3xl shrink-0 mt-1" />
-              <p className="text-gray-200">
+              <p className="fade-up text-gray-200">
                 Seek professional help if the situation is uncontrollable. Contact any trauma center in
                 Odisha, or simply inform TraumaHelp Odisha to get immediate access to trauma care.
               </p>
@@ -65,7 +65,7 @@ const WhoThisIsFor = () => {
         </div>
 
         {/* RIGHT – Circular Visual with Image */}
-        <div className="flex justify-center order-1 lg:order-2">
+        <div className="fade-right flex justify-center order-1 lg:order-2">
           <div className="relative w-72 h-72 md:w-80 md:h-80 rounded-full bg-red-400 flex items-center justify-center shadow-lg">
 
             <div className="w-60 h-60 md:w-64 md:h-64 rounded-full overflow-hidden relative shadow-lg">

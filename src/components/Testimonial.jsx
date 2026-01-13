@@ -62,13 +62,13 @@ export default function TraumaTestimonialSection() {
             </span>
 
             {/* Heading */}
-            <h2 className="text-4xl md:text-5xl font-extrabold text-[#223B73] leading-tight mb-10">
+            <h2 className="fade-right text-4xl md:text-5xl font-extrabold text-[#223B73] leading-tight mb-10">
               When <span className="text-red-400">Every Second</span> Matters,
               <br /> People Trust Us
             </h2>
 
             {/* Quote */}
-            <blockquote className="relative max-w-xl">
+            <blockquote className="fade-up relative max-w-xl">
               <span className="absolute -top-6 -left-6 text-7xl text-[#223B73]/10 font-serif">
                 “
               </span>
@@ -116,7 +116,7 @@ export default function TraumaTestimonialSection() {
           </div>
 
           {/* RIGHT — CONTACT FORM */}
-          <div className="bg-gradient-to-br from-[#223B73] to-[#223B73]/90 rounded-3xl p-10 text-white shadow-xl flex flex-col justify-center">
+          <div className="fade-right bg-gradient-to-br from-[#223B73] to-[#223B73]/90 rounded-3xl p-10 text-white shadow-xl flex flex-col justify-center">
 
             <div className="flex items-center gap-3 mb-6">
               <AlertTriangle className="w-6 h-6 text-red-400" />
