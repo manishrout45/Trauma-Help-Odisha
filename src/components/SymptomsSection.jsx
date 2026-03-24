@@ -31,7 +31,7 @@ export default function TraumaSymptomsSection() {
         {/* LEFT – IMAGE PANEL */}
         <div className="fade-up flex justify-center">
           <img
-            src="https://img.freepik.com/premium-photo/medium-shot-paramedic-checking-man_1356031-8479.jpg?ga=GA1.1.1312737827.1743758138&semt=ais_hybrid&w=740&q=80"
+            src="https://img.freepik.com/premium-photo/experienced-indian-doctor-examining-patient_1164435-15091.jpg?uid=R162123361&ga=GA1.1.1312737827.1743758138&semt=ais_hybrid&w=740&q=80"
             alt="Trauma Awareness Illustration"
             className="w-full max-w-md rounded-3xl shadow-2xl"
           />

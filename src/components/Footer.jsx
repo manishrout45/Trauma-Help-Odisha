@@ -20,7 +20,7 @@ export default function Footer() {
           }}
         >
           <img
-            src="https://img.freepik.com/premium-photo/two-doctors-giving-cpr-unconscious-male-patient-lying-bed-emergency-room_662251-485.jpg"
+            src="/assets/images/FooterImg.jpg"
             alt="Trauma Emergency Care"
             className="h-full w-full object-cover"
           />
